@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2013-09-13 17:24:32">
+		<key name=".Vanilla" modified="2013-09-13 15:57:32">
 			<value name="ColorTable00" type="dword" data="00000000"/>
 			<value name="ColorTable01" type="dword" data="00800000"/>
 			<value name="ColorTable02" type="dword" data="00008000"/>
@@ -97,11 +97,11 @@
 			<value name="Multi.Iterate" type="hex" data="01"/>
 			<value name="Multi.SplitWidth" type="hex" data="04"/>
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
-			<value name="KeyboardHooks" type="hex" data="00"/>
-			<value name="FontName" type="string" data="ＭＳ Ｐゴシック"/>
+			<value name="KeyboardHooks" type="hex" data="01"/>
+			<value name="FontName" type="string" data="Migu 1M"/>
 			<value name="FontName2" type="string" data="Lucida Console"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
-			<value name="FontSize" type="dword" data="00000010"/>
+			<value name="FontSize" type="dword" data="00000012"/>
 			<value name="FontSizeX" type="dword" data="00000000"/>
 			<value name="FontSizeX2" type="dword" data="00000000"/>
 			<value name="FontSizeX3" type="dword" data="00000000"/>
@@ -116,7 +116,7 @@
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="00"/>
 			<value name="bgPluginAllowed" type="hex" data="01"/>
-			<value name="AlphaValue" type="hex" data="ff"/>
+			<value name="AlphaValue" type="hex" data="c9"/>
 			<value name="AlphaValueSeparate" type="hex" data="00"/>
 			<value name="AlphaValueInactive" type="hex" data="ff"/>
 			<value name="UserScreenTransparent" type="hex" data="00"/>
@@ -124,11 +124,11 @@
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd Width" type="dword" data="00000050"/>
-			<value name="ConWnd Height" type="dword" data="00000019"/>
+			<value name="ConWnd Width" type="dword" data="0000006e"/>
+			<value name="ConWnd Height" type="dword" data="0000002c"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="dword" data="00000000"/>
-			<value name="ConWnd Y" type="dword" data="00000000"/>
+			<value name="ConWnd X" type="dword" data="00000074"/>
+			<value name="ConWnd Y" type="dword" data="000000a1"/>
 			<value name="16bit Height" type="dword" data="00000000"/>
 			<value name="AutoSaveSizePos" type="hex" data="00"/>
 			<value name="IntegralSize" type="hex" data="00"/>
@@ -332,7 +332,7 @@
 			<value name="Update.CheckOnStartup" type="hex" data="00"/>
 			<value name="Update.CheckHourly" type="hex" data="00"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
-			<value name="Update.UseBuilds" type="hex" data="00"/>
+			<value name="Update.UseBuilds" type="hex" data="02"/>
 			<value name="Update.UseProxy" type="hex" data="00"/>
 			<value name="Update.Proxy" type="string" data=""/>
 			<value name="Update.ProxyUser" type="string" data=""/>
@@ -486,8 +486,8 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-				<key name="Tasks" modified="2013-09-13 17:24:32">
-				<value name="Count" type="dword" data="00000000"/>
+				<key name="Tasks" modified="2013-09-13 15:57:33">
+				<value name="Count" type="dword" data="00000002"/>
 						<key name="Task1" modified="2013-09-13 15:57:33">
 					<value name="Name" type="string" data="{msys}"/>
 					<value name="GuiArgs" type="string" data=""/>
@@ -503,10 +503,10 @@
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
 			</key>
-				<key name="Apps" modified="2013-09-13 17:24:32">
+				<key name="Apps" modified="2013-09-13 15:57:33">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-				<key name="Colors" modified="2013-09-13 17:24:32">
+				<key name="Colors" modified="2013-09-13 15:57:33">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 		</key>
