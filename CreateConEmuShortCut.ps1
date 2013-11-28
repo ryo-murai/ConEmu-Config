@@ -3,7 +3,7 @@
 #    https://code.google.com/p/conemu-maximus5/wiki/Command_Line
 
 $currDir = Split-Path $MyInvocation.MyCommand.Path
-$conEmuDir = "C:\Program Files\ConEmu\"
+$conEmuDir = "${env:ProgramFiles}\ConEmu\"
 $exePath = Get-ChildItem $conEmuDir -filter *.exe | select -first 1 | % {$_.FullName}
 
 $shell = New-Object -COM WScript.Shell
