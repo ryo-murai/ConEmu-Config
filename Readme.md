@@ -4,19 +4,9 @@ ConEmu-Config
 My ConEmu settings.
 
 ## Usage
-to run with this config, use `/LoadCfgFile` option. 
+1. In default, ConEmu uses Windows registry as a config. To change config storage, specify a file as a config located `<home>\AppData\Roaming\ConEmu.xml`, during installation.
 
+1. copy ConEmu.xml to above location, or create a link by running `InstallConEmuXml.ps1`
+
+or run ConEmu.exe with `/LoadCfgFile` option.
 `ConEmu.exe /LoadCfgFile path-to-this-dir\ConEmu.xml` 
-
-or generate a shortcut `ConEmu.lnk` by running `CreateConEmuShortCut.ps1`
-
-or generate a jumplist by following steps.
- 
-## setup custom jump list
-1. run `CreateConEmuJumpList.ps1` from *ConEmu Console*, then manually pin the created jump list for next use.
-2. manually update the `Console Emulator` root shortcut with argument `/LoadCfgFile path-to-this-dir\ConEmu.xml`
-
-## todo
-* fix: path to msys sh.exe is invalid on 64 bit system
-* (setup) pin the jumplist programmically
-* (setup) update the shortcut programmically  
